@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20px">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50px"
+        android:text="이름"/>
+
+
+    <EditText
+        android:id="@+id/edtx"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50px"
+        android:text="전화번호"/>
+
+
+    <EditText
+        android:id="@+id/edty"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="60px"
+        android:padding="20px">
+
+        <Button
+            android:id="@+id/btn_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"/>
+
+        <Button
+            android:id="@+id/btn_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIND"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+<!--    2. Intent를 이용한 화면 전환 기능이 포함되어야 합니다.  :  버튼 클릭하면 어플이 켜짐-->
+<!--    3. Preference를 사용해서 데이터를 저장하는 로직이 포함되어야 합니다.-->
+<!--    4. Activity를 제외한 Class를 만들어서 활용해야 합니다.-->
+<!--    9. 코드에 가능한 주석 설명을 달아주세요.-->
+
+
+</LinearLayout>
